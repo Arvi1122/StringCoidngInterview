@@ -1,0 +1,11 @@
+
+public class StringReverse {
+	public static void main(String[] args) {
+		String str="Arvind Surnapaka";
+		char [] t=str.toCharArray();
+		for(int i=t.length;i>=0;i--) {
+			System.out.println(t[i]);
+		}
+	}
+
+}

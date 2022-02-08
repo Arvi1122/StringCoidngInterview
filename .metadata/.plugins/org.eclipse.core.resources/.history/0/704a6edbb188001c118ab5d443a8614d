@@ -1,0 +1,9 @@
+
+public class StringBuilderRever {
+	public static void main(String[] args) {
+		String str="StringBuilderRever";
+		StringBuffer b= new StringBuffer(str);
+		System.out.println(b.reverse());
+	}
+
+}

@@ -1,0 +1,10 @@
+
+public class StringbufferRevese {
+	public static void main(String[] args) {
+		String t="StringbufferRevese";
+	    StringBuffer b=new StringBuffer(t);
+	    System.out.println(b.reverse());
+	
+	}
+
+}
